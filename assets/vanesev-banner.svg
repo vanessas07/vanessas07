@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070709"/>
+      <stop offset="50%" stop-color="#111116"/>
+      <stop offset="100%" stop-color="#1B161A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#C89FA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="12" y="12" width="1176" height="336" rx="18" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.35"/>
+  <!-- Left Emblem -->
+  <g transform="translate(90, 65) scale(0.45)">
+    <rect width="512" height="512" rx="110" fill="#0D0D12" stroke="url(#gold)" stroke-width="6"/>
+    <path d="M136 148 L256 376 L376 148" fill="none" stroke="url(#gold)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M188 148 L256 284 L324 148" fill="none" stroke="#C89FA8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="112" r="14" fill="url(#gold)"/>
+  </g>
+  <!-- Typography -->
+  <text x="360" y="150" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="12">VANESEV</text>
+  <text x="775" y="150" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#D4AF37" letter-spacing="4">CLOUD SAAS</text>
+  <text x="360" y="205" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#E4E4E7" letter-spacing="1">Suite Multi-Tenant de Catálogos Interactivos, Agenda VIP &amp; Fidelización Digital</text>
+  <text x="360" y="255" font-family="monospace" font-size="16" font-weight="600" fill="#C89FA8" letter-spacing="2">★ VENEZUELA &amp; LATAM · USD/BCV ENGINE · NEON SERVERLESS · VERCEL EDGE · GITHUB ACTIONS CI/CD</text>
+</svg>
