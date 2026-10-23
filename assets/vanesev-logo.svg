@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090B"/>
+      <stop offset="50%" stop-color="#121217"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4E1E6"/>
+      <stop offset="100%" stop-color="#C89FA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <rect x="18" y="18" width="476" height="476" rx="96" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.45"/>
+  <!-- Stylized V + Butterfly Wing Geometry (Vanessa + 7) -->
+  <path d="M136 148 L256 376 L376 148" fill="none" stroke="url(#gold)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 148 L256 284 L324 148" fill="none" stroke="url(#rose)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <!-- 7-Point Star / Crown Accent at Top Center -->
+  <circle cx="256" cy="112" r="12" fill="url(#gold)"/>
+  <text x="256" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF" letter-spacing="14" text-anchor="middle">VANESEV</text>
+</svg>
